@@ -76,7 +76,7 @@ body{
 
 
   /* small size screen*/
-  @media screen and (max-width: 300px)
+  @media screen and (max-width: 236px)
   {
    .part1{
      margin:0px 0px
@@ -84,6 +84,14 @@ body{
   }
   }
    
+   /* small size screen*/
+   @media screen and (min-width:237px) and (max-width: 350px)
+   {
+    .part1{
+      margin:0px 15px
+ 
+   }
+   }
 
 
 /*inside the part1*/
