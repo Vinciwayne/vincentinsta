@@ -67,7 +67,11 @@ body{
 
  }
 
+
+
  /*inside the  part*/
+
+ /*inside the part1*/
  .part1{
    padding-top: 30px;
    margin: 0px 86px;
@@ -88,13 +92,25 @@ body{
    @media screen and (min-width:237px) and (max-width: 350px)
    {
     .part1{
-      margin:0px 15px
+      margin:0px 5px
+      
  
    }
    }
 
+  /* small size screen*/
+  @media screen and (min-width:351px) and (max-width: 450px)
+  {
+   .part1{
+     margin:0px 10px
 
-/*inside the part1*/
+  }
+  }
+
+
+
+ /*inside the part 2*/
+
  .part2{
    margin-right:28px;
    width: 614px;
@@ -151,7 +167,7 @@ overflow-y: hidden;
   
 
 
- /*inside the part 2*/
+
  .part2-1{
   background: #fff;
   background: rgba(var(--d87,255,255,255),1);
