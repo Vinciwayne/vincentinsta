@@ -92,7 +92,7 @@ body{
    @media screen and (min-width:237px) and (max-width: 350px)
    {
     .part1{
-      margin:0px 5px
+      margin:0px 10px
       
  
    }
@@ -102,11 +102,21 @@ body{
   @media screen and (min-width:351px) and (max-width: 450px)
   {
    .part1{
-     margin:0px 10px
+     margin:0px 13px
 
   }
   }
 
+
+    /* small size screen*/
+    @media screen and (min-width:451px) and (max-width: 550px)
+    {
+     .part1{
+       margin:0px 17px
+  
+    }
+    }
+  
 
 
  /*inside the part 2*/
